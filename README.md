@@ -1,5 +1,5 @@
 macaca-mocha
-====
+============
 
 [![NPM version][npm-image]][npm-url]
 [![build status][travis-image]][travis-url]
@@ -10,7 +10,7 @@ macaca-mocha
 [npm-image]: https://img.shields.io/npm/v/macaca-mocha.svg?style=flat-square
 [npm-url]: https://npmjs.org/package/macaca-mocha
 [travis-image]: https://img.shields.io/travis/macacajs/macaca-mocha.svg?style=flat-square
-[travis-url]: https://travis-ci.org/xumacacajsdafeng/macaca-mocha
+[travis-url]: https://travis-ci.org/macacajs/macaca-mocha
 [coveralls-image]: https://img.shields.io/coveralls/macacajs/macaca-mocha.svg?style=flat-square
 [coveralls-url]: https://coveralls.io/r/macacajs/macaca-mocha?branch=master
 [node-image]: https://img.shields.io/badge/node.js-%3E=_0.10-green.svg?style=flat-square
