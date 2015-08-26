@@ -1,22 +1,24 @@
 {
   "name": "macaca-mocha",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "macaca-mocha",
-  "keywords": ["macaca-mocha"],
+  "keywords": [
+    "macaca-mocha"
+  ],
   "main": "index.js",
   "repository": {
     "type": "git",
     "url": "git://github.com/macacajs/macaca-mocha.git"
   },
   "dependencies": {
+    "lodash": "~3.10.1",
     "mocha": "2.2.4",
     "should": "6.0.3"
   },
   "devDependencies": {
-    "mocha": "*",
-    "should": "*",
-    "jshint": "*",
+    "co-mocha": "~1.1.2",
     "istanbul": "*",
+    "jshint": "*",
     "pre-commit": "1.1.1"
   },
   "scripts": {

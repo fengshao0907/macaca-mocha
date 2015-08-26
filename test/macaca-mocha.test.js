@@ -13,7 +13,28 @@
 
 'use strict';
 
-var macaca-mocha = require('../');
+var Mocha = require('..');
+var path = require('path');
 
-describe('test', function() {
+describe('./lib/macaca-mocha.js', function() {
+  describe('constructor', function() {
+    it('should be a normal usage', function(done) {
+      var mocha = new Mocha({
+        cwd: path.resolve(__dirname, '..')
+      });
+
+      mocha.on('data', function(data) {
+        console.log('data: ', data);
+      });
+
+      mocha.on('error', function(data) {
+        console.log('error: ', data);
+      });
+
+      mocha.on('close', function(data) {
+        console.log('total: ', data);
+        done();
+      });
+    });
+  });
 });
