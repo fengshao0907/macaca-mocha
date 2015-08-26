@@ -1,0 +1,34 @@
+{
+  "name": "macaca-mocha",
+  "version": "0.1.0",
+  "description": "macaca-mocha",
+  "keywords": ["macaca-mocha"],
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/macacajs/macaca-mocha.git"
+  },
+  "dependencies": {
+    "mocha": "2.2.4",
+    "should": "6.0.3"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "should": "*",
+    "jshint": "*",
+    "istanbul": "*",
+    "pre-commit": "1.1.1"
+  },
+  "scripts": {
+    "test": "make test",
+    "jshint": "make jshint"
+  },
+  "pre-commit": [
+    "jshint"
+  ],
+  "homepage": "https://github.com/macacajs/macaca-mocha",
+  "author": "xudafeng",
+  "email": "xudafeng@126.com",
+  "blog": "http://xdf.me",
+  "license": "MIT"
+}
