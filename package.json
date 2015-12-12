@@ -1,6 +1,6 @@
 {
   "name": "macaca-mocha",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "macaca-mocha",
   "keywords": [
     "macaca-mocha"
@@ -28,6 +28,9 @@
   "pre-commit": [
     "jshint"
   ],
+  "engines": {
+    "node": ">=4.2.1"
+  },
   "homepage": "https://github.com/macacajs/macaca-mocha",
   "author": "xudafeng",
   "email": "xudafeng@126.com",
