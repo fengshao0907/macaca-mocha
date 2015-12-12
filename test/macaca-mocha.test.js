@@ -19,6 +19,7 @@ var path = require('path');
 describe('./lib/macaca-mocha.js', function() {
   describe('constructor', function() {
     it('should be a normal usage', function(done) {
+
       var mocha = new Mocha({
         cwd: path.resolve(__dirname, '..')
       });
